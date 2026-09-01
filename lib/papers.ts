@@ -1,12 +1,1 @@
-export type Paper = { id: string, title: string, year: number, exam: string, qs: number }
-export const papers: Paper[] = [
-  { id: 'jee-2024-p1', title: 'JEE Main 2024 Jan - Real Paper', year: 2024, exam: 'JEE', qs: 90 },
-  { id: 'jee-2023-p1', title: 'JEE Main 2023 Apr - Real Paper', year: 2023, exam: 'JEE', qs: 90 },
-  { id: 'jee-2022-p1', title: 'JEE Main 2022 - Real', year: 2022, exam: 'JEE', qs: 90 },
-  { id: 'jee-2021-p1', title: 'JEE Main 2021 - Real', year: 2021, exam: 'JEE', qs: 90 },
-  { id: 'jee-2020-p1', title: 'JEE Main 2020 - Real', year: 2020, exam: 'JEE', qs: 90 },
-  { id: 'jee-2019-p1', title: 'JEE Main 2019 - Real', year: 2019, exam: 'JEE', qs: 90 },
-  { id: 'neet-2024', title: 'NEET 2024 - Real', year: 2024, exam: 'NEET', qs: 200 },
-  { id: 'neet-2023', title: 'NEET 2023 - Real', year: 2023, exam: 'NEET', qs: 200 },
-]
-export function getQuestionsForPaper(paperId: string) { return [] }
+export const papers=[{id:"jee-2024-p1",title:"JEE Main 2024 Jan - Real",year:2024,exam:"JEE",qs:90},{id:"jee-2023-p1",title:"JEE Main 2023 Apr - Real",year:2023,exam:"JEE",qs:90},{id:"jee-2022-p1",title:"JEE Main 2022 - Real",year:2022,exam:"JEE",qs:90},{id:"jee-2021-p1",title:"JEE Main 2021 - Real",year:2021,exam:"JEE",qs:90},{id:"jee-2020-p1",title:"JEE Main 2020 - Real",year:2020,exam:"JEE",qs:90},{id:"jee-2019-p1",title:"JEE Main 2019 - Real",year:2019,exam:"JEE",qs:90},{id:"neet-2024",title:"NEET 2024 - Real",year:2024,exam:"NEET",qs:200},{id:"neet-2023",title:"NEET 2023 - Real",year:2023,exam:"NEET",qs:200}];
