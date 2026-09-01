@@ -1,1 +1,1 @@
-import { NextResponse } from "next/server"; export async function POST(req:Request){return NextResponse.json({success:true});}
+import { NextResponse } from "next/server"; export async function POST(req:Request){const b=await req.json(); return NextResponse.json({success:true,analysis:{score:200}});}

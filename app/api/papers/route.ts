@@ -1,1 +1,1 @@
-import { NextResponse } from "next/server"; export async function GET(){return NextResponse.json({papers:[{id:"jee-2024-p1"}]});}
+import { NextResponse } from "next/server"; export async function GET(){return NextResponse.json({papers:[{id:"jee-2024-p1",title:"JEE 2024"}]});}
