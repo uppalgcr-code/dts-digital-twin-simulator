@@ -1,1 +1,1 @@
-import { NextResponse } from "next/server"; export async function POST(req:Request){const b=await req.json(); const score=Math.floor(Math.random()*100)+180; return NextResponse.json({success:true,analysis:{score,total:360,potential:score+15,rank:"11800-16400"}});}
+import { NextResponse } from "next/server"; export async function POST(req:Request){return NextResponse.json({success:true});}
