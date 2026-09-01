@@ -1,1 +1,9 @@
-import Link from "next/link"; export default function Detail({params}:{params:{paperId:string}}){return(<div className="max-w-[960px] mx-auto px-6 py-10"><Link href="/papers" className="border-2 border-black px-4 py-2 rounded-full text-[12px] font-black">← Back to papers</Link><h1 className="mt-6 text-[28px] font-black">Practice {params.paperId}</h1><p className="text-[13px] text-[#6B6B6B] mt-2">Full paper - real pattern - detailed analysis after you finish.</p><Link href={`/papers/${params.paperId}/exam`} className="inline-block mt-6 btn-primary">Start full paper</Link></div>)}
+import Link from "next/link";
+export default function Detail({params}:{params:{paperId:string}}){
+  return(
+    <div className="max-w-[960px] mx-auto px-6 py-10">
+      <h1 className="text-[28px] font-black">Practice {params.paperId}</h1>
+      <Link href={`/papers/${params.paperId}/exam`} className="inline-block mt-6 btn-primary">Start full paper</Link>
+    </div>
+  )
+}
