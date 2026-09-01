@@ -1,1 +1,1 @@
-module.exports={content:['./app/**/*.{js,ts,jsx,tsx}'],theme:{extend:{colors:{brand:{black:'#0A0A0A',teal:'#008E8D',cyan:'#22C0C7',cream:'#FBF8F3',amber:'#F59E0B'}}},fontFamily:{display:['Satoshi','Inter','sans-serif']}},plugins:[]}
+module.exports={content:['./app/**/*.{js,ts,jsx,tsx}'],theme:{extend:{}},plugins:[]}

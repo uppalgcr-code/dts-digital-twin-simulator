@@ -1,1 +1,1 @@
-import { NextResponse } from "next/server"; export async function POST(req:Request){const b=await req.json(); return NextResponse.json({success:true,teacher:{id:"tea_"+Date.now(),...b},message:"Teacher Profile Accurate - Customer Ready"});} export async function GET(){return NextResponse.json({message:"Teacher API Working"});}
+import { NextResponse } from "next/server"; export async function POST(req:Request){const b=await req.json(); return NextResponse.json({success:true,teacher:b});} export async function GET(){return NextResponse.json({message:"Teacher API Working"});}
