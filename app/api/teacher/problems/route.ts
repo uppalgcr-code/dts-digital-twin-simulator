@@ -1,1 +1,1 @@
-import { NextResponse } from "next/server"; let problems:any[]=[]; export async function GET(){return NextResponse.json({problems});} export async function POST(req:Request){const b=await req.json(); const p={id:Date.now(),...b,createdAt:new Date().toISOString()}; problems.push(p); return NextResponse.json({problem:p});}
+import { NextResponse } from "next/server"; export async function GET(){return NextResponse.json({problems:[]});} export async function POST(req:Request){return NextResponse.json({ok:true});}

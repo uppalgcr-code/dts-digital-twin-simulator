@@ -1,1 +1,1 @@
-module.exports={content:['./app/**/*.{js,ts,jsx,tsx}'],theme:{extend:{}},plugins:[]}
+module.exports={content:['./app/**/*.{js,ts,jsx,tsx}'],theme:{extend:{colors:{fiitjee:{yellow:'#FFCC00',gold:'#FFD000',black:'#0A0A0A',navy:'#0A1931',blue:'#102542',light:'#FFF8E1'}}}},plugins:[]}
