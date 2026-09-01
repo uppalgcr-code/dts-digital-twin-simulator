@@ -1,1 +1,1 @@
-import { NextResponse } from "next/server"; export async function POST(req:Request){ const b=await req.json(); if(!b.name||!b.email) return NextResponse.json({error:"Invalid"}, {status:400}); return NextResponse.json({success:true}); } export async function GET(){return NextResponse.json({ok:true});}
+import { NextResponse } from "next/server"; export async function POST(req:Request){return NextResponse.json({success:true});} export async function GET(){return NextResponse.json({ok:true});}

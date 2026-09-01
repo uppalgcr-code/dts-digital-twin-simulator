@@ -2,12 +2,8 @@
 @tailwind base;@tailwind components;@tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
 body{background:#FFFBEB;font-family:Inter,sans-serif}
-.fiitjee-card{background:white;border:2px solid #0A0A0A;border-radius:20px;box-shadow:6px 6px 0px 0px #0A0A0A;transition:all 0.2s}
-.fiitjee-card:hover{transform:translate(-2px,-2px);box-shadow:8px 8px 0px 0px #0A0A0A}
-.fiitjee-yellow{background:#FFCC00;border:2px solid #0A0A0A;box-shadow:4px 4px 0px 0px #0A0A0A}
-.fiitjee-navy{background:#0A1931;color:white;border:2px solid #0A0A0A;box-shadow:6px 6px 0px 0px #0A0A0A}
-.fiitjee-btn-primary{background:#FFCC00;color:#0A0A0A;border:2px solid #0A0A0A;border-radius:999px;padding:12px 24px;font-weight:800;box-shadow:4px 4px 0px 0px #0A0A0A}
-.fiitjee-btn-navy{background:#0A1931;color:white;border:2px solid #0A0A0A;border-radius:999px;padding:12px 24px;font-weight:800;box-shadow:4px 4px 0px 0px #0A0A0A}
-.gradient-fiitjee{background:linear-gradient(135deg,#FFCC00 0%,#FF9800 100%)}
-.red-accent{background:#FFEBEE;border:2px solid #C62828;color:#C62828}
-.green-accent{background:#E8F5E9;border:2px solid #2E7D32;color:#2E7D32}
+.card{ background:white; border:2px solid #0A0A0A; border-radius:20px; box-shadow:6px 6px 0px 0px #0A0A0A; }
+.card-yellow{ background:#FFCC00; border:2px solid #0A0A0A; border-radius:20px; box-shadow:6px 6px 0px 0px #0A0A0A; }
+.card-navy{ background:#0A1931; color:white; border:2px solid #0A0A0A; border-radius:20px; box-shadow:6px 6px 0px 0px #0A0A0A; }
+.btn-primary{ background:#FFCC00; color:#0A0A0A; border:2px solid #0A0A0A; border-radius:999px; padding:12px 24px; font-weight:800; box-shadow:4px 4px 0px 0px #0A0A0A; }
+.btn-navy{ background:#0A1931; color:white; border:2px solid #0A0A0A; border-radius:999px; padding:12px 24px; font-weight:800; box-shadow:4px 4px 0px 0px #0A0A0A; }
