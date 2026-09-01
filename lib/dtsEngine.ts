@@ -1,1 +1,1 @@
-export const mistakeDNA=[{label:"Calculation",value:24}];
+export const calcDTS=(score:number,total:number)=>{const pct=score/total; return {current:Math.round(120+pct*60),potential:Math.round(150+pct*50),rankLow:Math.round(20000-pct*12000),rankHigh:Math.round(28000-pct*14000)}};
